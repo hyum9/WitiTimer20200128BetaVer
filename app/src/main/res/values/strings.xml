@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="grade_array">
+        <item>1st grade</item>
+        <item>2nd grade</item>
+        <item>3rd grade</item>
+    </string-array>
+
+    <string-array name="major_array">
+        <item>Natural Sciences</item>
+        <item>Liberal Arts</item>
+        <item>Technology</item>
+    </string-array>
+
+    <string-array name="Natural_Sciences_subjects">
+        <item>Physics1</item><!-- 0  -->
+        <item>Physics2</item>
+        <item>Chemistry1</item>
+        <item>Chemistry2</item>
+        <item>Biology1</item><!-- 4 -->
+        <item>Biology2</item>
+        <item>Geoscience1</item>
+        <item>Geoscience2</item><!-- 7 -->
+    </string-array>
+
+
+    <string-array name="Liberal_Arts_subjects">
+        <item>Ethics_life</item><!-- 10 -->
+        <item>Ethics_ideology</item>
+        <item>Geography_korea</item>
+        <item>Geography_world</item>
+        <item>History_eastasia</item><!-- 14 -->
+        <item>History_world</item>
+        <item>Law_politics</item>
+        <item>Economics</item>
+        <item>Social_culture</item><!-- 18 -->
+    </string-array>
+
+
+    <string-array name="Technology_subjects">
+        <item>Agricultural_understanding</item><!-- 20 -->
+        <item>Agricultural_technology</item>
+        <item>Industrial_general</item>
+        <item>System_basic</item>
+        <item>Economy_commercial</item><!-- 24 -->
+        <item>Accounting_principle</item>
+        <item>Oceanic_understanding</item>
+        <item>Oceanic_inudstryfoundation</item>
+        <item>Human_development</item>
+        <item>LivingServiceIndustry_understanding</item><!-- 29 -->
+    </string-array>
+
+
+</resources>

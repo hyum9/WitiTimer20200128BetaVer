@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="학교정보 입력하기"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/schoolInput"
+        android:layout_centerHorizontal="true"
+        android:hint="School"
+        android:layout_marginTop="151dp"/>
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/gradeSpinner"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/schoolInput"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/majorSpinner"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/gradeSpinner"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="Log in"
+        android:id="@+id/subject1Spinner"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/majorSpinner"
+        android:layout_toStartOf="@+id/subject2Spinner"
+        android:layout_toLeftOf="@id/subject2Spinner"/>
+
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="Sign up"
+        android:id="@+id/subject2Spinner"
+        android:textAllCaps="false"
+        android:layout_alignTop="@+id/subject1Spinner"
+        android:layout_alignEnd="@+id/majorSpinner"
+        android:layout_alignRight="@+id/majorSpinner"/>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:text="Go"
+        android:id="@+id/goBtn"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/subject2Spinner"/>
+
+
+
+</RelativeLayout>
